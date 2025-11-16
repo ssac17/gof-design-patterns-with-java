@@ -10,11 +10,14 @@ import java.util.Iterator;
 public class IteratorMain {
     public static void main(String[] args) {
         //책상 생성 및 책 추가
-        BookShelf bookShelf = new BookShelf(4);
+        BookShelf bookShelf = new BookShelf();
         bookShelf.appendBook(new Book("Crime and Punishment"));
         bookShelf.appendBook(new Book("The Brothers Karamazov"));
         bookShelf.appendBook(new Book("Les Miserables"));
         bookShelf.appendBook(new Book("Madame Bovary"));
+        bookShelf.appendBook(new Book("Madame Bovary"));
+        bookShelf.appendBook(new Book("Cinderella"));
+        bookShelf.appendBook(new Book("Daddy-Long-Legs"));
 
 
         //명시적으로 Iterator 사용하는 방벙
@@ -37,9 +40,15 @@ Crime and Punishment
 The Brothers Karamazov
 Les Miserables
 Madame Bovary
+Madame Bovary
+Cinderella
+Daddy-Long-Legs
 
 Crime and Punishment
 The Brothers Karamazov
 Les Miserables
 Madame Bovary
+Madame Bovary
+Cinderella
+Daddy-Long-Legs
 */
