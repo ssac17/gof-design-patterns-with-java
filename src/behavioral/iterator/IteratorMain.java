@@ -2,6 +2,11 @@ package behavioral.iterator;
 
 import java.util.Iterator;
 
+/**
+ * 반복자 패턴
+ * 무엇인가 많이 모여 있을 때 이를 순서대로 가리키며  전체를 검색하고 처리를 반복하는 것
+ * iterate는 '반복하다', iterator는 '반복자'라고 한다.
+ * */
 public class IteratorMain {
     public static void main(String[] args) {
         //책상 생성 및 책 추가
