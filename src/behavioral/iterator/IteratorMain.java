@@ -25,3 +25,16 @@ public class IteratorMain {
         }
     }
 }
+
+/*
+출력 결과
+Crime and Punishment
+The Brothers Karamazov
+Les Miserables
+Madame Bovary
+
+Crime and Punishment
+The Brothers Karamazov
+Les Miserables
+Madame Bovary
+*/
