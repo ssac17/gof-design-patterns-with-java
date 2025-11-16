@@ -30,3 +30,4 @@ bin/
 .DS_Store
 
 gof-design-patterns-with-java.iml
+.idea
