@@ -7,7 +7,7 @@ package structural.adapter.extends_example;
  */
 public class AdapterExtendsExMain {
     public static void main(String[] args) {
-        PrintBanner p = new PrintBanner("Hello");
+        Print p = new PrintBanner("Hello");
         p.printWeak();
         p.printString();
     }

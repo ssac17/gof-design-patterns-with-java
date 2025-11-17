@@ -1,4 +1,4 @@
-package structural.adapter.extends_example;
+package structural.adapter;
 
 public class Banner {
     private String string;
