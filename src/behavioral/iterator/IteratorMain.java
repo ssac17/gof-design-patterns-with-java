@@ -19,7 +19,6 @@ public class IteratorMain {
         bookShelf.appendBook(new Book("Cinderella"));
         bookShelf.appendBook(new Book("Daddy-Long-Legs"));
 
-
         //명시적으로 Iterator 사용하는 방벙
         Iterator<Book> iterator = bookShelf.iterator();
         while (iterator.hasNext()) {

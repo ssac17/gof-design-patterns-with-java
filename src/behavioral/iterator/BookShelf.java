@@ -9,8 +9,6 @@ public class BookShelf implements Iterable<Book>{
     private List<Book> books = new ArrayList<>();
     private int last = 0;
 
-
-
     public Book getBookAt(int index) {
         return books.get(index);
     }
