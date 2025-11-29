@@ -11,15 +11,13 @@ import creational.abstract_factory.factory.Tray;
  * ex> java Main list.html listfactory.ListFactory
  * 이 인수(args[1])을 바탕으로 getFactory로 공장을 만들고 변수 factroy에 대입니다. 이후에 factory를 사용해
  * Link와 Tray를 만들고, Tray 안에 Link나 Tray를 넣을 후 마지막에 Page를 만들어 output을 실행합니다.
- * 실행 > java AbstractFactoryMain.java list.html creational.abstract_factory.listfactory.ListFactory
- *       java AbstractFactoryMain.java div.html creational.abstract_factory.divfactory.DivFactory
  */
 public class AbstractFactoryMain {
     public static void main(String[] args) {
         if(args.length != 2) {
             System.out.println("Usage: java Main filename.html clas.name.of.ConcreteFactory");
-            System.out.println("Example 1: java Main list.html listfactory.ListFactory");
-            System.out.println("Example 2: java Main div.html divfactory.DivFactory");
+            System.out.println("Example 1: java AbstractFactoryMain.java list.html creational.abstract_factory.listfactory.ListFactory");
+            System.out.println("Example 2: java AbstractFactoryMain.java div.html creational.abstract_factory.divfactory.DivFactory");
         }
 
         String filename = args[0];

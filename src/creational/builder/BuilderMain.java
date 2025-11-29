@@ -1,5 +1,10 @@
 package creational.builder;
 
+/**
+ * Main 클래스는 Builder 클래스의 메소드를 모릅니다.(호출하지 않습니다)
+ * Main 클래스는 Director 클래스의 construct 메서드만 호출합니다. 그러면 Director 클래스 안에서 조용히 일이 진행되고
+ * (그것을 Main 클래스는 신경 쓰지 않고) 문서가 완성됩니다.
+ */
 public class BuilderMain {
     public static void main(String[] args) {
         if(args.length != 1) {
