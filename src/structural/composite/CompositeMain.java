@@ -32,6 +32,31 @@ public class CompositeMain {
         dojun.add(new File("junk.mail", 500));
 
         rootDir.printList();
-
     }
 }
+/*
+출력 결과 (root 디렉토리의 값이 증가)
+Marking root entries...
+/root (30000)
+/root/bin (30000)
+/root/bin/vi (10000)
+/root/bin/latex (20000)
+/root/tmp (0)
+/root/usr (0)
+
+Making user entries...
+/root (31500)
+/root/bin (30000)
+/root/bin/vi (10000)
+/root/bin/latex (20000)
+/root/tmp (0)
+/root/usr (1500)
+/root/usr/youngjin (300)
+/root/usr/youngjin/diary.html (100)
+/root/usr/youngjin/Composite.java (200)
+/root/usr/gildong (300)
+/root/usr/gildong/memo.tex (300)
+/root/usr/dojun (900)
+/root/usr/dojun/game.doc (400)
+/root/usr/dojun/junk.mail (500)
+ */
